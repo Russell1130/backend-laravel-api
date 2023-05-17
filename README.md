@@ -25,17 +25,17 @@ The website should be optimized for viewing on mobile devices.
 Docker is required for this project.
 
 1. docker build -t laravel-backend-api .
-2. docker container ls -a
-You can see some information of container's you have created using docker build.
-You have to look at CONTAINER ID in which IMAGE name is "api-main"
-3. docker exec -it [CONTAINER ID] sh
-This opens shell command.
-On the shell command prompt, you have to run these 2 instructions to work with database.
+2. docker container ls -a<br/>
+You can see some information of container's you have created using docker build.<br/>
+You have to look at CONTAINER ID in which IMAGE name is "api-main"<br/>
+3. docker exec -it [CONTAINER ID] sh<br/>
+This opens shell command.<br/>
+On the shell command prompt, you have to run these 2 instructions to work with database.<br/>
 
-php artisan migrate
+php artisan migrate<br/>
 php artisan db:seed
 
-Then, close the shell.
+Then, close the shell.<br/>
 4. docker-compose up
 
 You have already finished running laravel backend api for News App.
