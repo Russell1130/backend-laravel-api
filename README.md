@@ -32,10 +32,10 @@ You have to look at CONTAINER ID in which IMAGE name is "api-main"<br/>
 This opens shell command.<br/>
 On the shell command prompt, you have to run these 2 instructions to work with database.<br/>
 
-php artisan migrate<br/>
-php artisan db:seed
+    php artisan migrate<br/>
+    php artisan db:seed
 
-Then, close the shell.<br/>
+    Then, close the shell.<br/>
 4. docker-compose up
 
 You have already finished running laravel backend api for News App.
